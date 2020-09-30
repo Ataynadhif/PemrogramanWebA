@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/nature1.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    text-align: center;
+    margin: 20px auto;
+    color: lightgrey;
+}
+
+.img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.container h1,h2{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.content p, table, ul, li, h3{
+    text-align: justify;
+}
+
+#tabel{
+    width: 100%;
+}
+
+table{
+    border-top: 3px solid lightslategrey;
+    border-bottom: 3px solid lightslategrey;
+}
+
+h3{
+    text-decoration: underline;
+    text-decoration-color: lightsteelblue;
+}
+
+.sosmed ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sosmed li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
